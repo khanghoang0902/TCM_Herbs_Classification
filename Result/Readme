@@ -1,0 +1,2 @@
+The results of our approach is compared with the approach using binary features. 
+The comparisons are done in 2 metrics: F1-score and accuracy.
