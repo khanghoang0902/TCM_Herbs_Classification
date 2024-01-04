@@ -8,50 +8,30 @@ Traditional Chinese Medicine (TCM) has long relied on herbal prescriptions for t
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Follow the instructions below:
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- Python 3.x
+- Jupyter Notebook
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Upload Code -> TCM.ipynp to Google Colab 
+2. Open TCM.ipynp in Google Colab
+3. Upload Dataset -> medical_cases.csv to Files
+4. Go to Runtime, select Run all to execute the model
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MODEL PERFORMANCE -->
-## Model Performance
-
-Write 
+## Model Performance 
+![image](https://github.com/ngochoawindy/TCM_Herbs_Classification/assets/61321182/7664f0b6-12d9-4ccb-bfed-b9bd29acfa5e)
+![image](https://github.com/ngochoawindy/TCM_Herbs_Classification/assets/61321182/5633b101-ad0a-4dc8-bb1a-71c00bded812)
 
 ### Model performance details
 
-Insert picture and result here
-
-### Model output examples
-
-Insert classification examples
-   ```
+In comparing the performance of word embedding and binary features for predicting herbal components, word embedding consistently outshines binary features across multiple metrics. The results indicate higher accuracy and F1-scores for most herbal components when employing word embedding. This suggests that the word embedding approach captures more nuanced relationships and context, leading to improved predictive capabilities. Overall, the efficiency of word embedding is evident, emphasizing its effectiveness in enhancing the accuracy and overall performance of the model in the context of herbal component prediction.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
